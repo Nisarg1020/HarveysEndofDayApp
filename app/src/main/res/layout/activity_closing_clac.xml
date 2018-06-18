@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Closing Claculator"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="25dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:onClick="till1OnClick"
+                android:text="Till 1"/>
+
+            <ImageView
+                android:id="@+id/check_till1_img"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sign_check_icon"
+                android:visibility="gone" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:onClick="till2OnClick"
+                android:text="Till 2"/>
+
+            <ImageView
+                android:id="@+id/check_till2_img"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sign_check_icon"
+                android:visibility="gone" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:onClick="safeOnClick"
+                android:text="Safe"/>
+
+            <ImageView
+                android:id="@+id/check_safe_img"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sign_check_icon"
+                android:visibility="gone" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:onClick="tillOnClick"
+                android:text="Deposit"/>
+
+            <ImageView
+                android:id="@+id/check_deposit_img"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/sign_check_icon"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
